@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale-1">
+        <title>podoMoro</title>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/app.js" defer></script>
+    </head>
+    <body>
+        <section id="body-wrapper">
+
+        <section>
+                <div id="timer-countdown">
+                    <span id="timer-minutes">0</span>:<span id="timer-seconds">00</span>
+                </div>
+
+                <div id="podomoro-session-container">
+                    <span>#</span><span id="number-of-podomoro-sessions"></span>
+                </div>
+
+                <div id="podomoro-timer-templates">
+                    <button class="timer-template" id="fifteen-minutes-template">15</button>
+                    <button class="timer-template" id="twenty-five-minutes-template">25</button>
+                    <button class="timer-template" id="thirty-five-minutes-template">35</button>
+                </div>
+
+                <div id="quote-container">Motivational Quotes</div>
+        </section>
+
+        <section id="todos-container">
+                <div id="todos-heading">
+                    Todo's: One item at a time
+                </div>
+
+                <div>
+                    <form onsubmit="return false">
+                        <div>
+                            <input type="text" placeholder="My Todo" id="todo-input">
+                        </div>
+
+                        <div>
+                            <button id="add-todo">Add</button>
+                        </div>
+
+                        <div id="check-user-todo-wrapper">
+                            <span id="todo-checkbox">
+                                <input type="checkbox">
+                            </span>
+                            <span id="user-todo"></span>
+                        </div>
+                    </form>
+                </div>
+        </section>
+
+        <section>
+            <form onsubmit="return false">
+                <div>
+                    <input type="text" placeholder="ENTER A CUSTOM TIMER" id="custom-timer">
+                </div>
+
+                <div>
+                    <button id="start-custom-timer">Start</button>
+                </div>
+            </form>
+    </section>
+
+        <section>
+                <button id="give-up-button">
+                    Give UP
+                </button>
+        </section>
+    </section>
+       <footer>
+            <span>podoMoro@2023</span>
+       </footer>
+    </body>
+</html>
