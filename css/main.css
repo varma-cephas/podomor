@@ -1,6 +1,6 @@
 @font-face {
     font-family: NotoSans;
-    src: url(/assets/font/NotoSans-Regular.ttf);
+    src: url(assets/font/NotoSans-Regular.ttf);
 }
 html{
     box-sizing: border-box;
